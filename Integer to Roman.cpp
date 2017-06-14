@@ -14,7 +14,7 @@ public:
 			data[len++]=num%10;
 			num/=10;
 		}
-		for(int i=0;i<len;i++){
+		for(int i=len-1;i>=0;i--){
 			int skip=data[i]/5;
 			int cur=data[i]%5;
 			if(data[i]==5){
