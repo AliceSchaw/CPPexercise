@@ -9,7 +9,7 @@ public:
         return;	
 		int n=matrix.size();
 		for(int i=0;i<n/2;i++){
-			for(int j=0;j<n-1-i;j++)
+			for(int j=i;j<n-1-i;j++)
 			{
 				int x=i,y=j;
 				int temp=matrix[i][j];
@@ -17,7 +17,7 @@ public:
 				matrix[n-1-y][x]=matrix[n-1-x][n-1-y];
 				matrix[n-1-x][n-1-y]=matrix[y][n-1-x];
 				matrix[y][n-1-x]=temp;
-
+                cout<<"移动的点："<<x<<","<<y<<" "<<endl;
 			}
 		}
 	}
