@@ -13,7 +13,7 @@ public:
                 start=res[s[i]];
             res[s[i]]=i;
             maxLen=max(maxLen,i-start);
-            cout<<i<<","<<start<<","<<maxLen<<endl;
+            //cout<<i<<","<<start<<","<<maxLen<<endl;
         }
         return maxLen;
     }

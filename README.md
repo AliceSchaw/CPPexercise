@@ -10,3 +10,4 @@
 ##9.3 Sum
 ##10.Longest Substring Without Repeating Characters
 ##11.Median of Two Sorted Arrays
+##12.Remove Duplicates from Sorted Array
