@@ -14,3 +14,5 @@
 ##13.Reverse Integer  
 ##14.Longest Substring Without Repeating Characters  
 ##15.Palindrome Number  
+##16.String to Integer  
+##17.ZigZag Conversion  
