@@ -16,3 +16,5 @@
 ##15.Palindrome Number  
 ##16.String to Integer  
 ##17.ZigZag Conversion  
+##18.Implement strStr()  
+##19.Valid Parentheses
