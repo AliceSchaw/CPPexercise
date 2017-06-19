@@ -1,7 +1,7 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        //char最大值为127
+        //error:char最大值为127
         //char res[255]={0};
         //memset(res,-1,255);
         vector<int> res(256, -1);

@@ -1,27 +1,35 @@
-/*
-error:未修改nums
+//3ms
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
-        int i=0,j=0;
-        if(!nums.empty()&&nums.size()>=1){
-            std::sort(nums.begin(),nums.end());
-    
-            while(nums[i]!=val&&i<nums.size()){
-                i++;
-            }
-            if(i<nums.size()){
-                for(j;nums[i]==nums[i+j];j++);
+        int count=0,i=0;
+            if(!nums.empty()){
+                std::sort(nums.begin(),nums.end());
                 
+                while(nums[i]!=val&&i<nums.size()){
+                    i++;
+                }
+                for(i;i<nums.size();i++)
+                {
+                    if(nums[i]==val)
+                    {
+                        count++;
+                    }
+                    else{
+                        nums[i-count]=nums[i];
+                    }
+                    
+                }
+                cout<<nums.size()-count;
+            
+            
             }
-            cout<<nums.size()-j;
-
-        }
-        nums.assign(res.begin(),res.end());
-        return nums.size()-j;
+        
+        return nums.size()-count;
         
     }
-};*/
+};
+/*
 int removeElement(vector<int>& nums, int val) {
     int cnt = 0;
     for(int i = 0 ; i < nums.size() ; ++i) {
@@ -32,3 +40,4 @@ int removeElement(vector<int>& nums, int val) {
     }
     return nums.size()-cnt;
 }
+*/

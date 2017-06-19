@@ -1,5 +1,7 @@
 //pop/push
-/*error:未修改nums
+//error1:未修改nums
+//error2:会去除为0但并不是重复的点
+/*
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -21,11 +23,12 @@ public:
                 }
             nums.assign(res.begin(),res.end());
             //cout<<res.size();
-            return res.size();
+            return nums.size();
     }
 };*/
-//iterator
-/*class Solution {
+//iterator(219ms)
+/*
+class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         if(!nums.empty()&&nums.size()>1){
@@ -45,7 +48,9 @@ public:
         cout<<nums.size()<<endl;
         return nums.size();
     }
-};*/
+};
+*/
+//49ms
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
