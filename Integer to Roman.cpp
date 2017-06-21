@@ -23,7 +23,7 @@ public:
 
 			}
 			else if(cur<4){
-			    if(skip>0){
+				if(skip>0){
 			        result.push_back(number[2*i+1]);
 			    }
         		for(int j=cur;j>0;j--)

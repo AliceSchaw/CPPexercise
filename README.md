@@ -22,4 +22,8 @@
 ## 21.3Sum Closest  
 ## 22.Container With Most Water  
 ## 23.Longest Common Prefix  
-## 24.Repeated Substring Pattern
+## 24.Repeated Substring Pattern  
+## 25.4Sum  
+## 26.Merge Two Sorted Lists  
+## 27.Remove Nth Node From End of List  
+## 28.Submission Details  

@@ -18,9 +18,7 @@ public:
                if (res[idx] != strs[i][idx])
                   break;  
             }  
-            
             res = res.substr(0,idx);
-            
         }
         return res;
     }
