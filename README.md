@@ -30,3 +30,7 @@
 ### 29.Merge k Sorted Lists 
 ### 30.Reverse Nodes in k-Group
 ### 31.Swap Nodes in Pairs
+### 32.Divide Two Integers
+### 33.Substring with Concatenation of All Words
+### 34.Next Permutation
+### 35.Longest Valid Parentheses
