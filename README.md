@@ -34,3 +34,10 @@
 ### 33.Substring with Concatenation of All Words
 ### 34.Next Permutation
 ### 35.Longest Valid Parentheses
+### 36.Valid Sudoku
+### 37.Sudoku Solver
+### 38.Search Insert Position
+### 39.Search in Rotated Sorted Array
+### 40.Search for a Range
+### 41.First Bad Version
+### 42.Count and Say
