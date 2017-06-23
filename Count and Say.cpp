@@ -12,6 +12,11 @@ public:
                     count++;
                     i++;
                 }
+                /*
+                char ccount='0'+count;
+                string scount(1, ccount);
+                cur+=scount+res[i];
+                */
                 cur+=to_string(count)+res[i];
             }
             res=cur;
