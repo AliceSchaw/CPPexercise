@@ -61,6 +61,7 @@ int main(void)
 
     int num = s.romanToInt(sen);
     cout << "The int num is: " <<num<<endl;
+	system("PAUSE");
 
 
 
