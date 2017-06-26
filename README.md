@@ -41,3 +41,5 @@
 ### 40.Search for a Range
 ### 41.First Bad Version
 ### 42.Count and Say
+### 43.Combination Sum
+### 44.First Missing Positive
