@@ -59,3 +59,11 @@ int main()
 	system("pause");  
 	return 0;  
 }  
+/*
+text:xyxababcaxxxababca
+temp:ababca
+step:3
+step:12
+next:
+001201
+*/
