@@ -43,3 +43,7 @@
 ### 42.Count and Say
 ### 43.Combination Sum
 ### 44.First Missing Positive
+### 45.Letter Combinations of a Phone Number
+### 46.Multiply Strings
+### 47.Trapping Rain Water
+### 48.Wildcard Matching
