@@ -47,3 +47,8 @@
 ### 46.Multiply Strings
 ### 47.Trapping Rain Water
 ### 48.Wildcard Matching
+### 49.Group Anagrams
+### 50.Jump Game II
+### 51.Permutations
+### 52.Permutations II
+### 53.Pow(x, n)
