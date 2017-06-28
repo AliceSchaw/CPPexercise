@@ -52,3 +52,4 @@
 ### 51.Permutations
 ### 52.Permutations II
 ### 53.Pow(x, n)
+### 54.Jump Game
