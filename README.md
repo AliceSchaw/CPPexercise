@@ -53,3 +53,4 @@
 ### 52.Permutations II
 ### 53.Pow(x, n)
 ### 54.Jump Game
+### 55.N-Queens

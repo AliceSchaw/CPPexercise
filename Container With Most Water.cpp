@@ -7,6 +7,7 @@ public:
         while(left<right){
             res=max(res,min(height[left],height[right])*(right-left));
             if(height[left]>height[right])
+                //提高短板才有可能使面积更大
                 right--;
             else
                 left++;

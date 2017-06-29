@@ -36,9 +36,9 @@
 
 
  //6ms
-  class Solution {
-  public:
-     int strStr(string haystack, string needle) {
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
         int i=0,j=0;
         if(needle.empty()||haystack.empty()){
             if(needle.empty()) 
@@ -46,18 +46,17 @@
             else 
                 return -1;
         }
-        
         for(i,j;i<haystack.size()&&j<needle.size();){
             if(haystack[i]==needle[j]){
-                i++;
-                j++;
+                i++;j++;
+                if(j==needle.size())  
+                    return i-j;
             }
             else{
                 i=i-j+1;
                 j=0;
             }
         }
-        
-        return j==needle.size()?i-j:-1;
-     }
- };
+        return -1;
+    }
+};
