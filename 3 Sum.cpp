@@ -1,9 +1,9 @@
-//139ms
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& num) {
         vector<vector<int> > res;
         //冒泡排序
+        //139ms
         bubble_sort(num);
         //快速排序
         //126ms

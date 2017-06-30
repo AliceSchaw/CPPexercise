@@ -54,3 +54,4 @@
 ### 53.Pow(x, n)
 ### 54.Jump Game
 ### 55.N-Queens
+### 56.N-Queens II
