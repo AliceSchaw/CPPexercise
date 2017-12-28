@@ -4,6 +4,7 @@ using namespace std;
 
 class Solution{
 public:
+    //6ms
 	void retateImage(vector <vector <int> > &matrix){
 	    if(matrix.size()<=0)
         return;	
@@ -21,6 +22,14 @@ public:
 			}
 		}
 	}
+    //6ms
+    void rotate(vector<vector<int> > &matrix) {
+        reverse(matrix.begin(), matrix.end());
+        for (int i = 0; i < matrix.size(); ++i) {
+            for (int j = i + 1; j < matrix[i].size(); ++j)
+                swap(matrix[i][j], matrix[j][i]);
+        }
+    }
 };
 int main(void)
 {
@@ -45,4 +54,5 @@ int main(void)
             cout<<i<<","<<j<<" "<<matrix[i][j]<<endl;
     	    
     	}
+    
 }

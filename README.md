@@ -41,3 +41,17 @@
 ### 40.Search for a Range
 ### 41.First Bad Version
 ### 42.Count and Say
+### 43.Combination Sum
+### 44.First Missing Positive
+### 45.Letter Combinations of a Phone Number
+### 46.Multiply Strings
+### 47.Trapping Rain Water
+### 48.Wildcard Matching
+### 49.Group Anagrams
+### 50.Jump Game II
+### 51.Permutations
+### 52.Permutations II
+### 53.Pow(x, n)
+### 54.Jump Game
+### 55.N-Queens
+### 56.N-Queens II
