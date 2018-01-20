@@ -1,31 +1,22 @@
-//pop/push
-//error1:未修改nums
-//error2:会去除为0但并不是重复的点
-/*
+//push_back
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-            vector<int> res;  
-            int temp=0;
-            while(!nums.empty()){
-                    if(nums.back()!=temp){
-                        res.push_back(nums.back());
-                        cout<<nums.back();
-                        temp=nums.back();
-                        
-                        nums.pop_back();
-                        
-                    }
-                    else{
-                        nums.pop_back();
-                    }
+        vector<int> res;  
+        int j=0;
+        if(nums.size()==0) return 0;
+        //res.push_back(nums[j++]);
+        while(j<nums.size()){
+            if(nums[j]!=nums[j-1]||j<1){
+                res.push_back(nums[j++]);
+            }
+            else{j++;}
 
-                }
-            nums.assign(res.begin(),res.end());
-            //cout<<res.size();
-            return nums.size();
+        }
+        nums.assign(res.begin(),res.end());
+        return nums.size();
     }
-};*/
+}
 //iterator(219ms)
 /*
 class Solution {

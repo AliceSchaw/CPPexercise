@@ -11,13 +11,13 @@ public:
             int mid = (lo + hi) / 2;
             if (nums[mid] == target) return mid;
             
-            if (nums[lo] <= nums[mid]) {
+            if (nums[lo] <= nums[mid]) {//左半有序
                 if (target >= nums[lo] && target < nums[mid]) {
                     hi = mid - 1;
                 } else {
                     lo = mid + 1;
                 }
-            } else {
+            } else {//右半有序
                 if (target > nums[mid] && target <= nums[hi]) {
                     lo = mid + 1;
                 } else {
