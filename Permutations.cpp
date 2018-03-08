@@ -75,7 +75,7 @@ public:
 
         for(int i = 0; i < num.size(); ++i)
         {
-            if(isVisited[i] == false)
+            if(isVisited[i] == false)//改变判断语句可以用来实现查找所有的回文子串
             {
                 isVisited[i] = true;
                 curr.push_back(num[i]);
